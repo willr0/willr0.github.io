@@ -1,0 +1,231 @@
+ html{
+ 	/*background: url(../images/background.jpg) no-repeat center center fixed;*/
+  background-color: #EAE7DC;
+ 	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+ 	-o-background-size: cover;
+  	background-size: cover;
+  	font-family: 'Raleway',sans-serif;;
+  	text-align: center;
+ }
+
+/* Smaller text */
+ .smaller {
+  font-size: 14px;
+ }
+
+/* Colored text */
+ .colored {
+  color: #d8c3a5;
+ }
+
+/* Bio text */
+ .bio {
+  font-size: 15px;
+  width: 420px;
+  text-align: left;
+  margin-left: 60px;
+ }
+
+/* Profile container */
+ .prof-box{
+ 	width: 600px;
+ 	height: 2380px;
+ 	background: rgba(0, 0, 0, 0.55);
+ 	padding: 40px;
+ 	color: white;
+ 	margin: 0 auto;
+ 	margin-top: 50px;
+  margin-bottom: 50px;
+ }
+
+/* Profile picture */
+ .prof-pic { 
+ 	border-radius: 90px;
+ 	height: 200px;
+ 	width: 200px;
+ }
+
+/* Name container */
+ .name {
+  text-shadow: 5px 5px rgba(0,0,0,0.1);
+  margin-top: -20px;
+ }
+
+/* William */
+ #firstName{
+  color: white;
+  font-size: 55px;
+  text-align: left;
+  margin-left: 35px;
+  margin-bottom: -57px;
+  letter-spacing: 4;
+  color: #d8c3a5;
+ }
+
+/* Roller */
+ #lastName {
+  font-size: 110px;
+  margin-top: 30;
+  color: #E98074;
+  font-stretch: expanded;
+  letter-spacing: 2;
+ }
+
+/* Div titles */
+ h2 {
+ 	letter-spacing: 7;
+ 	font-size: 50px;
+  color: #E98074;
+  text-shadow: 5px 5px rgba(0,0,0,0.1);
+  margin-bottom: -20px;
+  margin-top: -5px;
+ }
+
+/* Organization title */
+ h3 {
+ 	font-weight: 100;
+ 	letter-spacing: 3;
+ 	font-size: 30px;
+ 	margin-bottom: -10px;
+
+ }
+
+/* Organization link override */
+ h3 a {
+  color: #d8c3a5;
+  text-shadow: 3px 3px rgba(0,0,0,0.1);
+}
+
+/* JobTitle */
+h4 {
+	font-weight: 100;
+ 	letter-spacing: 1;
+ 	font-size: 20px;
+ 	margin-bottom: -10px;
+  color: #E98074;
+  margin-top: 15px;
+  text-shadow: 3px 3px rgba(0,0,0,0.1);
+}
+
+/* Software Developer */
+ h5 {
+ 	letter-spacing: 3;
+ 	font-size: 25px;
+  margin-left: 110px;
+  margin-top: -90px;
+  color: #d8c3a5;
+ }
+
+/* Certificates title */
+ h6 {
+  letter-spacing: 3;
+  font-size: 25px;
+  margin-bottom: -10px;
+  margin-top: 15px;
+  color: #E98074;
+  text-shadow: 3px 3px rgba(0,0,0,0.1);
+ }
+
+/* (unorganized) Lists */
+ ul {
+  display: inline
+  width: 10px;
+ 	font-size: 15px;
+ 	list-style-type: none;
+  padding: 0;
+  text-align: left;
+  margin-left: 50px;
+ }
+
+/* Links */
+ a {
+  color: white;
+  text-decoration: none;
+ }
+
+/* Social icons */
+ .social-icons {
+ 	font-size: 40px;
+	text-align: center;
+ }
+
+/* Social icons link override */
+ .social-icons a {
+    color: #d8c3a5;
+ }
+
+/* Line for separating divs */
+ .line-break {
+ 	width: 400px;
+ 	margin: 0 auto;
+ 	margin-top: 30px;
+ 	margin-bottom: 30px;
+ 	border-top: 1px solid white;
+ }
+
+/* Certifications container */
+ .certifications ul{
+  width: 100%;
+  margin-left: 30%;
+  margin-top: 10px;
+  padding: 10px;
+ }
+
+/* Left side certifications */
+ .cert1 {
+  width: 40%;
+  float: left;
+ }
+
+/* Right side certifications */
+ .cert2 {
+  margin-left: 40%;
+  width: 40%;
+ }
+
+/* Needed for skill bars */
+* {box-sizing:border-box}
+
+/* Individual skill bar containers */
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+/* Skill master container */
+.skills {
+    text-align: right; 
+    padding-right: 20px; 
+    line-height: 30px; 
+    color: gray; 
+    font-weight: bolder;
+    box-shadow: 5px 5px rgba(0,0,0,0.1);
+}
+
+/* Skill bar master container */
+.skill-container {
+  margin-top: 40px;
+}
+
+.resume {
+  text-align: center;
+  font-size: 15px;
+  letter-spacing: 2;
+  font-weight: bolder;
+  margin-top: -10px;
+}
+
+.resume a {
+  color: #E98074;
+}
+
+/* Skill bars and colors */
+.java {width: 90%; background-color: #d8c3a5;} 
+.c {width: 90%; background-color: #d8c3a5;}
+.sql {width: 80%; background-color: #d8c3a5;} 
+.html {width: 80%; background-color: #d8c3a5;} 
+.css {width: 80%; background-color: #d8c3a5;} 
+.python {width: 70%; background-color: #d8c3a5;} 
+.js {width: 60%; background-color: #d8c3a5;}
+.cpp {width: 60%; background-color: #d8c3a5;} 
