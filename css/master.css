@@ -1,3 +1,4 @@
+
  html{
  	/*background: url(../images/background.jpg) no-repeat center center fixed;*/
   background-color: #EAE7DC;
@@ -24,20 +25,22 @@
   font-size: 15px;
   width: 420px;
   text-align: left;
-  margin-left: 60px;
+  margin: 0 auto;
  }
 
 /* Profile container */
  .prof-box{
  	width: 600px;
- 	height: 2450px;
+ 	height: 2375px;
  	background: rgba(0, 0, 0, 0.55);
  	padding: 40px;
  	color: white;
- 	margin: 0 auto;
+ 	margin: auto;
  	margin-top: 50px;
   margin-bottom: 50px;
  }
+
+
 
 /* Profile picture */
  .prof-pic { 
@@ -129,8 +132,7 @@ h4 {
 
 /* (unorganized) Lists */
  ul {
-  display: inline
-  width: 10px;
+  width: 85%;
  	font-size: 15px;
  	list-style-type: none;
   padding: 0;
@@ -165,6 +167,11 @@ h4 {
  }
 
 /* Certifications container */
+ .certifications {
+      height: 175px;
+  }
+
+/* Certifications list */
  .certifications ul{
   width: 100%;
   margin-left: 30%;
@@ -230,3 +237,44 @@ h4 {
 .python {width: 70%; background-color: #d8c3a5;} 
 .js {width: 60%; background-color: #d8c3a5;}
 .cpp {width: 60%; background-color: #d8c3a5;} 
+
+/* Mobile optimization */
+  @media only screen and (orientation:portrait ){
+    .prof-box {
+      margin-left: -8px;
+      margin-top: -8px;
+      height: 3150px;
+      margin-bottom: 0;
+    }
+
+    h2 {
+      font-size: 60px;
+    }
+
+    h3 {
+      font-size: 40px;
+    }
+
+    .resume {
+      font-size: 20px;
+    }
+
+     .certifications {
+      height: 310px;
+    }
+
+    p{
+      font-size: 22px;
+    }
+
+    ul {
+      font-size: 22px;
+      width: 90%;
+    }
+    
+    .social-icons {
+      font-size:70px;
+    }
+   
+
+ }
