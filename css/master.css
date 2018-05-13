@@ -203,10 +203,6 @@ h4 {
     box-shadow: 5px 5px rgba(0,0,0,0.1);
 }
 
-.skills:hover {
-  display: none;
-}
-
 /* Skill bar master container */
 .skill-container {
   margin-top: 40px;
