@@ -29,8 +29,8 @@
 
 /* Profile container */
  .prof-box{
- 	width: 31.9%;
- 	height: 245%;
+ 	width: 600px;
+ 	height: 2400px;
  	background: rgba(0, 0, 0, 0.55);
  	padding: 40px;
  	color: white;
