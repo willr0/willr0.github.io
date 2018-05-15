@@ -16,7 +16,7 @@
  }
 
 /* Colored text */
- #colored {
+ .colored {
   color: #d8c3a5;
  }
 
@@ -225,7 +225,7 @@ h4 {
 }
 
 .resume a {
-  color: #E98074;
+  color: #d8c3a5;
 }
 
 /* Skill bars and colors */
