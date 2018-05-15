@@ -37,9 +37,8 @@
  	margin: auto;
  	margin-top: 50px;
   margin-bottom: 50px;
+  border-radius: 10px;
  }
-
-
 
 /* Profile picture */
  .prof-pic { 
@@ -242,7 +241,7 @@ h4 {
   .prof-box {
     margin-left: -8px;
     margin-top: -8px;
-    height: 3250px;
+    height: 3375px;
     margin-bottom: 0;
   }
 
