@@ -3,11 +3,11 @@
  	/*background: url(../images/background.jpg) no-repeat center center fixed;*/
   background-color: #EAE7DC;
  	-webkit-background-size: cover;
-  	-moz-background-size: cover;
+  -moz-background-size: cover;
  	-o-background-size: cover;
-  	background-size: cover;
-  	font-family: 'Raleway',sans-serif;;
-  	text-align: center;
+  background-size: cover;
+  font-family: 'Raleway',sans-serif;;
+  text-align: center;
  }
 
 /* Smaller text */
@@ -154,7 +154,7 @@ h4 {
 
 /* Social icons link override */
  .social-icons a {
-    color: #d8c3a5;
+  color: #d8c3a5;
  }
 
 /* Line for separating divs */
@@ -168,7 +168,7 @@ h4 {
 
 /* Certifications container */
  .certifications {
-      height: 175px;
+    height: 175px;
   }
 
 /* Certifications list */
@@ -196,18 +196,18 @@ h4 {
 
 /* Individual skill bar containers */
 .container {
-    width: 70%;
-    margin: 0 auto;
+  width: 70%;
+  margin: 0 auto;
 }
 
 /* Skill master container */
 .skills {
-    text-align: right; 
-    padding-right: 20px; 
-    line-height: 30px; 
-    color: gray; 
-    font-weight: bolder;
-    box-shadow: 5px 5px rgba(0,0,0,0.1);
+  text-align: right; 
+  padding-right: 20px; 
+  line-height: 30px; 
+  color: gray; 
+  font-weight: bolder;
+  box-shadow: 5px 5px rgba(0,0,0,0.1);
 }
 
 /* Skill bar master container */
@@ -239,42 +239,39 @@ h4 {
 .cpp {width: 60%; background-color: #d8c3a5;} 
 
 /* Mobile optimization */
-  @media only screen and (orientation:portrait ){
-    .prof-box {
-      margin-left: -8px;
-      margin-top: -8px;
-      height: 3250px;
-      margin-bottom: 0;
-    }
+@media only screen and (orientation:portrait ){
+  .prof-box {
+    margin-left: -8px;
+    margin-top: -8px;
+    height: 3250px;
+    margin-bottom: 0;
+  }
 
-    h2 {
-      font-size: 60px;
-    }
+  h2 {
+    font-size: 60px;
+  }
 
-    h3 {
-      font-size: 40px;
-    }
+  h3 {
+    font-size: 40px;
+  }
 
-    .resume {
-      font-size: 20px;
-    }
+  .resume {
+    font-size: 20px;
+  }
 
-     .certifications {
-      height: 320px;
-    }
+  .certifications {
+    height: 320px;
+  }
 
-    p{
-      font-size: 22px;
-    }
+  p{
+    font-size: 22px;
+  }
 
-    ul {
-      font-size: 22px;
-      width: 90%;
-    }
+  ul {
+    font-size: 22px;
+    width: 90%;
+  }
     
-    .social-icons {
-      font-size:70px;
-    }
-   
-
- }
+  .social-icons {
+    font-size:70px;
+  }}
