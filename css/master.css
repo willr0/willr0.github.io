@@ -19,14 +19,20 @@ html{
 .bio {
   width: 420px;
   margin: 0 auto;
-  text-align: left;
   font-size: 15px;
+  text-align: justify;
+}
+
+.bio a {
+  color: #E98074;
+  font-weight: bold;
+  font-size: 17px;
 }
 
 /* Profile container */
 .prof-box{
   width: 600px;
-  height: 2475px;
+  height: 2515px;
   margin: auto;
   margin-top: 50px;
   margin-bottom: 50px;
@@ -234,7 +240,7 @@ h4 {
 /* Mobile optimization */
 @media only screen and (orientation:portrait ){
   .prof-box {
-    height: 3375px;
+    height: 3450px;
     margin-top: -8px;
     margin-left: -8px;
     margin-bottom: 0;
@@ -251,6 +257,10 @@ h4 {
 
   .social-icons {
     font-size:70px;
+  }
+
+  .bio a {
+    font-size: 24px;
   }
 
   h2 {
