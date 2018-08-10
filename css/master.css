@@ -32,7 +32,7 @@ html{
 /* Profile container */
 .prof-box{
   width: 600px;
-  height: 2515px;
+  height: 2750px;
   margin: auto;
   margin-top: 50px;
   margin-bottom: 50px;
@@ -93,6 +93,12 @@ html{
 
 .resume a {
   color: #d8c3a5;
+}
+
+.ab-website {
+  width: 420px;
+  height: 217px;
+  margin-top: 25px;
 }
 
 /* Needed for skill bars */
@@ -240,7 +246,7 @@ h4 {
 /* Mobile optimization */
 @media only screen and (orientation:portrait ){
   .prof-box {
-    height: 3450px;
+    height: 3700px;
     margin-top: -8px;
     margin-left: -8px;
     margin-bottom: 0;
