@@ -1,193 +1,94 @@
-
- html{
+html{
   background-color: #EAE7DC;
- 	-webkit-background-size: cover;
-  -moz-background-size: cover;
- 	-o-background-size: cover;
   background-size: cover;
   font-family: 'Raleway',sans-serif;;
   text-align: center;
- }
+}
 
 /* Smaller text */
- .smaller {
+.smaller {
   font-size: 14px;
- }
+}
 
 /* Colored text */
- .colored {
+.colored {
   color: #d8c3a5;
- }
+}
 
 /* Bio text */
- .bio {
-  font-size: 15px;
+.bio {
   width: 420px;
-  text-align: left;
   margin: 0 auto;
- }
+  text-align: left;
+  font-size: 15px;
+}
 
 /* Profile container */
- .prof-box{
- 	width: 600px;
- 	height: 2475px;
- 	background: rgba(0, 0, 0, 0.55);
- 	padding: 40px;
- 	color: white;
- 	margin: auto;
- 	margin-top: 50px;
+.prof-box{
+  width: 600px;
+  height: 2475px;
+  margin: auto;
+  margin-top: 50px;
   margin-bottom: 50px;
+  background: rgba(0, 0, 0, 0.55);
+  padding: 40px;
   border-radius: 10px;
- }
+  color: white;
+}
 
 /* Profile picture */
- .prof-pic { 
- 	border-radius: 90px;
- 	height: 200px;
- 	width: 200px;
- }
+.prof-pic { 
+  height: 200px;
+  width: 200px;
+  border-radius: 90px;
+}
 
 /* Name container */
- .name {
-  text-shadow: 5px 5px rgba(0,0,0,0.1);
+.name {
   margin-top: -20px;
- }
+  text-shadow: 5px 5px rgba(0,0,0,0.1);
+}
 
 /* William */
- #firstName{
-  color: white;
+#firstName{
+  margin-left: 35px;
+  margin-bottom: -100px;
+  color: #d8c3a5;
   font-size: 55px;
   text-align: left;
-  margin-left: 35px;
-  margin-bottom: -57px;
-  letter-spacing: 4;
-  color: #d8c3a5;
- }
+  letter-spacing: 4px;
+}
 
 /* Roller */
- #lastName {
-  font-size: 110px;
-  margin-top: 30;
+#lastName {
+  margin-top: 30px;
   color: #E98074;
   font-stretch: expanded;
-  letter-spacing: 2;
- }
-
-/* Div titles */
- h2 {
- 	letter-spacing: 7;
- 	font-size: 50px;
-  color: #E98074;
-  text-shadow: 5px 5px rgba(0,0,0,0.1);
-  margin-bottom: -20px;
-  margin-top: -5px;
- }
-
-/* Organization title */
- h3 {
- 	font-weight: 100;
- 	letter-spacing: 3;
- 	font-size: 30px;
- 	margin-bottom: -10px;
-
- }
-
-/* Organization link override */
- h3 a {
-  color: #d8c3a5;
-  text-shadow: 3px 3px rgba(0,0,0,0.1);
+  font-size: 110px;
+  letter-spacing: 2px;
 }
-
-/* JobTitle */
-h4 {
-	font-weight: 100;
- 	letter-spacing: 1;
- 	font-size: 20px;
- 	margin-bottom: -10px;
-  color: #E98074;
-  margin-top: 15px;
-  text-shadow: 3px 3px rgba(0,0,0,0.1);
-}
-
-/* Software Developer */
- h5 {
- 	letter-spacing: 3;
- 	font-size: 25px;
-  margin-left: 110px;
-  margin-top: -90px;
-  color: #d8c3a5;
- }
-
-/* Certificates title */
- h6 {
-  letter-spacing: 3;
-  font-size: 25px;
-  margin-bottom: -10px;
-  margin-top: 15px;
-  color: #E98074;
-  text-shadow: 3px 3px rgba(0,0,0,0.1);
- }
-
-/* (unorganized) Lists */
- ul {
-  width: 85%;
- 	font-size: 15px;
- 	list-style-type: none;
-  padding: 0;
-  text-align: left;
-  margin-left: 50px;
- }
-
-/* Links */
- a {
-  color: white;
-  text-decoration: none;
- }
-
-/* Social icons */
- .social-icons {
- 	font-size: 40px;
-	text-align: center;
- }
-
-/* Social icons link override */
- .social-icons a {
-  color: #d8c3a5;
- }
 
 /* Line for separating divs */
  .line-break {
- 	width: 400px;
- 	margin: 0 auto;
- 	margin-top: 30px;
- 	margin-bottom: 30px;
- 	border-top: 1px solid white;
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-top: 1px solid white;
  }
 
-/* Certifications container */
- .certifications {
-    height: 175px;
-  }
+.resume {
+  margin-top: -10px;
+  font-weight: bolder;
+  text-align: center;
+  font-size: 15px;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px rgba(0,0,0,0.1);
+}
 
-/* Certifications list */
- .certifications ul{
-  width: 100%;
-  margin-left: 30%;
-  margin-top: 10px;
-  padding: 10px;
- }
-
-/* Left side certifications */
- .cert1 {
-  width: 40%;
-  float: left;
- }
-
-/* Right side certifications */
- .cert2 {
-  margin-left: 40%;
-  width: 40%;
- }
+.resume a {
+  color: #d8c3a5;
+}
 
 /* Needed for skill bars */
 * {box-sizing:border-box}
@@ -200,10 +101,11 @@ h4 {
 
 /* Skill master container */
 .skills {
+
+  line-height: 30px;
+  padding-right: 20px;
+  color: gray;
   text-align: right; 
-  padding-right: 20px; 
-  line-height: 30px; 
-  color: gray; 
   font-weight: bolder;
   box-shadow: 5px 5px rgba(0,0,0,0.1);
 }
@@ -211,19 +113,6 @@ h4 {
 /* Skill bar master container */
 .skill-container {
   margin-top: 40px;
-}
-
-.resume {
-  text-align: center;
-  font-size: 15px;
-  letter-spacing: 2;
-  font-weight: bolder;
-  margin-top: -10px;
-  text-shadow: 2px 2px rgba(0,0,0,0.1);
-}
-
-.resume a {
-  color: #d8c3a5;
 }
 
 /* Skill bars and colors */
@@ -236,22 +125,121 @@ h4 {
 .js {width: 60%; background-color: #d8c3a5;}
 .cpp {width: 60%; background-color: #d8c3a5;} 
 
+/* Certifications container */
+.certifications {
+  height: 175px;
+}
+
+/* Certifications list */
+.certifications ul{
+  width: 100%;
+  margin-left: 30%;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+/* Left side certifications */
+.cert1 {
+  width: 40%;
+  float: left;
+}
+
+/* Right side certifications */
+.cert2 {
+  width: 40%;
+  margin-left: 40%;
+}
+
+ /* Social icons */
+.social-icons {
+  text-align: center;
+  font-size: 40px;
+}
+
+/* Social icons link override */
+.social-icons a {
+  color: #d8c3a5;
+}
+
+/* Div titles */
+h2 {
+  margin-top: -5px;
+  margin-bottom: -20px;
+  color: #E98074;
+  font-size: 50px;
+  letter-spacing: 7px;
+  text-shadow: 5px 5px rgba(0,0,0,0.1);
+  
+}
+
+/* Organization title */
+h3 {
+  margin-bottom: -10px;
+  font-weight: 100;
+  font-size: 30px;
+  letter-spacing: 3px;
+}
+
+/* Organization link override */
+h3 a {
+  color: #d8c3a5;
+  text-shadow: 3px 3px rgba(0,0,0,0.1);
+}
+
+/* JobTitle */
+h4 {
+  margin-top: 15px;
+  margin-bottom: -10px;
+  color: #E98074;
+  font-weight: 100;
+  font-size: 20px;
+  letter-spacing: 1px;
+  text-shadow: 3px 3px rgba(0,0,0,0.1);
+}
+
+/* Software Developer */
+ h5 {
+  margin-left: 110px;
+  margin-top: -90px;
+  color: #d8c3a5;
+  font-size: 25px;
+  letter-spacing: 3px;
+ }
+
+/* Certificates title */
+ h6 {
+  margin-top: 15px;
+  margin-bottom: -10px;
+  color: #E98074;
+  font-size: 25px;
+  letter-spacing: 3px;
+  text-shadow: 3px 3px rgba(0,0,0,0.1);
+ }
+
+/* (unorganized) Lists */
+ ul {
+  width: 85%;
+  margin-left: 50px;
+  padding: 0;
+  text-align: left;
+  font-size: 15px;
+  list-style-type: none;
+ }
+
+/* Links */
+ a {
+  color: white;
+  text-decoration: none;
+ }
+
 /* Mobile optimization */
 @media only screen and (orientation:portrait ){
   .prof-box {
-    margin-left: -8px;
-    margin-top: -8px;
     height: 3450px;
+    margin-top: -8px;
+    margin-left: -8px;
     margin-bottom: 0;
     border-radius: 0px;
-  }
-
-  h2 {
-    font-size: 60px;
-  }
-
-  h3 {
-    font-size: 40px;
   }
 
   .resume {
@@ -262,15 +250,23 @@ h4 {
     height: 320px;
   }
 
+  .social-icons {
+    font-size:70px;
+  }
+
+  h2 {
+    font-size: 60px;
+  }
+
+  h3 {
+    font-size: 40px;
+  }
+
   p{
     font-size: 22px;
   }
 
   ul {
-    font-size: 22px;
     width: 90%;
-  }
-    
-  .social-icons {
-    font-size:70px;
+    font-size: 22px;
   }}
