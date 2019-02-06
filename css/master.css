@@ -16,14 +16,14 @@ html{
 }
 
 /* Bio text */
-.bio {
+.text {
   width: 420px;
   margin: 0 auto;
   font-size: 15px;
   text-align: justify;
 }
 
-.bio a {
+.text a {
   color: #E98074;
   font-weight: bold;
   font-size: 17px;
@@ -32,7 +32,6 @@ html{
 /* Profile container */
 .prof-box{
   width: 600px;
-  height: 3000px;
   margin: auto;
   margin-top: 50px;
   margin-bottom: 50px;
@@ -95,10 +94,47 @@ html{
   color: #d8c3a5;
 }
 
-.ab-website {
-  width: 420px;
-  height: 217px;
+.img-container {
+  display: inline-block;
+  position: relative;
+  width: 90%;
   margin-top: 25px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: black;
+}
+
+.overlay-text {
+  color: #d8c3a5;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.img-container:hover .overlay {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.website {
+  display: block;
+  width: 100%;
+  height: auto;
+
 }
 
 /* Needed for skill bars */
@@ -246,7 +282,6 @@ h4 {
 /* Mobile optimization */
 @media only screen and (orientation:portrait ){
   .prof-box {
-    height: 4000px;
     margin-top: -8px;
     margin-left: -8px;
     margin-bottom: 0;
@@ -265,7 +300,7 @@ h4 {
     font-size:70px;
   }
 
-  .bio a {
+  .text a {
     font-size: 24px;
   }
 
