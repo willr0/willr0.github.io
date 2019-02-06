@@ -166,13 +166,13 @@ html{
 }
 
 /* Skill bars and colors */
-.java {width: 90%; background-color: #d8c3a5;} 
-.c {width: 90%; background-color: #d8c3a5;}
+.java {width: 100%; background-color: #d8c3a5;} 
+.c {width: 100%; background-color: #d8c3a5;}
 .sql {width: 80%; background-color: #d8c3a5;} 
-.html {width: 80%; background-color: #d8c3a5;} 
-.css {width: 80%; background-color: #d8c3a5;} 
+.html {width: 100%; background-color: #d8c3a5;} 
+.css {width: 90%; background-color: #d8c3a5;} 
 .python {width: 70%; background-color: #d8c3a5;} 
-.js {width: 60%; background-color: #d8c3a5;}
+.js {width: 80%; background-color: #d8c3a5;}
 .cpp {width: 60%; background-color: #d8c3a5;} 
 
 /* Certifications container */
