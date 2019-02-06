@@ -279,12 +279,7 @@ h4 {
   color: white;
   text-decoration: none;
  }
-
- .subtext {
-  font-size: 17px;
-  color: #E98074;
- }
-
+ 
 /* Mobile optimization */
 @media only screen and (orientation:portrait ){
   .prof-box {
