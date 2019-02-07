@@ -3,6 +3,14 @@ html{
   background-size: cover;
   font-family: 'Raleway',sans-serif;;
   text-align: center;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
 }
 
 /* Smaller text */
@@ -33,7 +41,7 @@ html{
 .prof-box{
   width: 600px;
   height: auto;
-  margin: auto;
+  margin: 0 auto;
   margin-top: 50px;
   margin-bottom: 50px;
   background: rgba(0, 0, 0, 0.55);
@@ -47,6 +55,7 @@ html{
   height: 250px;
   width: 250px;
   border-radius: 120px;
+  margin-top:50px;
 }
 
 /* Name container */
@@ -291,9 +300,9 @@ h4 {
 @media only screen and (orientation:portrait ){
   .prof-box {
     margin-top: -8px;
-    margin-left: auto;
     margin-bottom: 0;
     border-radius: 0px;
+    padding: 0;
   }
 
   .resume {
